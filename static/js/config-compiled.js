@@ -25,7 +25,7 @@ $().ready(function () {
   //各项技能数值
   var skillV = [];
   var skill = [];
-  var skills = [{ s1: 'HTML(5)', s2: 98 }, { s1: 'CSS(3)', s2: 92 }, { s1: 'javaScript', s2: 93 }, { s1: 'jQuery', s2: 89 }, { s1: 'Bootstrap', s2: 85 }, { s1: 'Less', s2: 71 }, { s1: 'Angular', s2: 67 }, { s1: 'Node', s2: 59 }, { s1: 'php', s2: 58 }];
+  var skills = [{ s1: 'HTML(5)', s2: 84 }, { s1: 'CSS(3)', s2: 81 }, { s1: 'javaScript', s2: 80 }, { s1: 'jQuery', s2: 78 }, { s1: 'Bootstrap', s2: 85 }, { s1: 'Less', s2: 68 }, { s1: 'Angular', s2: 35 }, { s1: 'Node', s2: 61 }, { s1: 'php', s2: 45 }];
   $.each(skills, function (i) {
     skill.push({ text: skills[i]['s1'], max: 100 });
     skillV.push(skills[i]['s2']);
