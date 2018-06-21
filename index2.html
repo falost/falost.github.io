@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="zh-cn">
 <head>
   <meta charset="utf-8">
@@ -17,7 +18,13 @@
   <!--<script src="https://google.github.io/traceur-compiler/bin/traceur.js"></script>-->
   <!--<script src="https://google.github.io/traceur-compiler/bin/BrowserSystem.js"></script>-->
   <!--<script src="https://google.github.io/traceur-compiler/src/bootstrap.js"></script>-->
-
+	<script>
+    (function() {
+      if ( window.location.protocol.indexOf('s') < 0 ) {
+        window.location.protocol = 'https'
+      }
+    })()
+    </script>
 </head>
 <body>
 <!--heaer-->
@@ -147,4 +154,4 @@
 <!--<script src="static/js/jquery.bgSlide.js"></script>-->
 <script src="static/js/config.js"></script>
 <!--<script type="module">import './static/js/es6.js';</script>-->
-</html>
+

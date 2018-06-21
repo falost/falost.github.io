@@ -1,1 +1,0 @@
-{"version":3,"sources":["es6.js"],"names":[],"mappings":";;;;AAIA;AACE,MAAI,IAAE,CAAN;AACA,UAAQ,GAAR,CAAY,CAAZ;AACD","file":"es6-compiled.js","sourcesContent":["/**\r\n * Created by Falost on 2016/5/16.\r\n */\r\n//es6\r\n{\r\n  let a=2;\r\n  console.log(a)\r\n}\r\n"]}
